@@ -2,7 +2,7 @@
 
 A simple wrapper for dereuromark/MediaEmbed to generate embed HTML for popular media hosting services. + Thumbnail function based on Joe1992w/laravel-media-embed.
 
-##Installation
+## Installation
 ````bash
 composer require merujan99/laravel-video-embed:dev-master
 ````
@@ -16,7 +16,7 @@ OR
 composer install
 ````
 
-##Service Provider
+## Service Provider
 ````php
 'providers' => [
     // Others...
@@ -24,7 +24,7 @@ composer install
 ],
 ````
 
-##Facade
+## Facade
 ````php
 'aliases' => [
     // Others...
@@ -32,7 +32,7 @@ composer install
 ],
 ````
 
-##Usage
+## Usage
 
 ````php
 //URL to be used for embed generation
@@ -67,13 +67,12 @@ return LaravelVideoEmbed::parse($url, $whitelist, $params, $attributes)
 //<iframe src="https://www.youtube.com/embed/8eK-5ivYb3o?wmode=transparent&amp;autoplay=1&amp;loop=1" type="" width="480" height="295" frameborder="0" allowfullscreen class="iframe-class" data-html5-parameter></iframe>
 ````
 
-##Supported Hosts
+## Supported Hosts
 
 Please see [dereuromark/MediaEmbed](https://github.com/dereuromark/MediaEmbed)
 
-##Supported Website Whitelist names
-Name |
---- |
+## Supported Website Whitelist names
+Name |--- |
 YouTube |
 Facebook |
 Dailymotion |
